@@ -5,7 +5,7 @@
  * @format
  */
 
-import { NewAppScreen } from '@react-native/new-app-screen';
+/*import { NewAppScreen } from '@react-native/new-app-screen';
 import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
 import {
   SafeAreaProvider,
@@ -42,4 +42,15 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default App;*/
+
+import React from 'react';
+import {View, Text} from 'react-native';
+
+export default function App() {
+  return (
+    <View style={{flex:1,justifyContent:'center',alignItems:'center'}}>
+      <Text>Hello Household Command Center</Text>
+    </View>
+  );
+}
